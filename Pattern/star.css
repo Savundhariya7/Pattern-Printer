@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(166, 254, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+}
+select{
+    width:300px;
+    height:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+input{
+    width:200px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 40px;
+    font-family: monospace;
+}
+#button{
+    width:160px;
+    height: 50px;
+    background-color: brown;
+    color:aqua;
+    font-size: 16px;
+    font-weight: bold;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top:3%;
+}
+textarea{
+    background-color: aliceblue;
+    font-size:20px;
+    font-weight: bold;
+}
+ #button :hover{
+    background-color: paleturquoise;
+ }

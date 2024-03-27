@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star</title>
+    <link rel="stylesheet" href="star.css">
+    <script src="stareff.js">
+</script>
+</head>
+<body>
+<label>Enter the Number:</label>
+<input type="number" placeholder="Enter the number here" id="in">
+<select id="rowSelect" onchange= "rightTri()">
+    <option>---Select----</option>
+    <option value="left">Left Right Triangle</option>
+    <option value="right">Right Right Triangle</option>
+    <option value="dia">Diamond</option>
+</select>
+<input type="button" onclick="rightTri()" value="DISPLAY PATTERN" id="button">
+<textarea id="result" placeholder="Your Pattern is here" style="height:200px; width: 400px; border: 2px solid black;" readonly> </textarea>
+</body>
+</html>
